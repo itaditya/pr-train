@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "yarn build && surge -p build -d https://prtrain.surge.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
