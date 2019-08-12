@@ -1,0 +1,21 @@
+{
+  "name": "PR Train",
+  "version": "1.0.0",
+  "description": "See who is free for PR review",
+  "content_scripts": [{
+      "js": ["script.js"],
+      "matches": ["https://github.com/interviewstreet/*/pull/*"]
+  }],
+  "permissions": [
+    "https://pr-train.herokuapp.com/*",
+    "webRequest"
+  ],
+  "icons": {
+      "48": "icon.png",
+      "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}

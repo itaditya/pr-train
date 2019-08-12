@@ -1,8 +1,12 @@
 import React, { Fragment, useEffect, useState, useReducer } from 'react';
+
 import './App.css';
+// import { fixtureReviewApi } from './apiFixtures';
 
-import { fixtureReviewApi } from './apiFixtures';
+const {NODE_ENV} = process.env;
 
+const API_BASE_URL = NODE_ENV === 'development' ? 'http://localhost:9999' : 'https://pr-train.herokuapp.com';
+const API_URL = `${API_BASE_URL}/api`;
 const rtf = new Intl.RelativeTimeFormat('en');
 const skeletonArray = [0, 1, 2, 3];
 
@@ -56,7 +60,7 @@ function App() {
         const urlParams = new URLSearchParams(window.location.search);
         const team = urlParams.get('team') || '';
 
-        const apiRes = await fetch(`http://localhost:9999/api/reviewers?team=${team}`);
+        const apiRes = await fetch(`${API_URL}/reviewers?team=${team}`);
         const apiData = await apiRes.json();
 
         if(!apiRes.ok) {
