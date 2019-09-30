@@ -4,7 +4,7 @@
   "description": "See who is free for PR review",
   "content_scripts": [{
       "js": ["script.js"],
-      "matches": ["https://github.com/interviewstreet/*/pull/*"]
+      "matches": ["https://github.com/*"]
   }],
   "permissions": [
     "https://pr-train.herokuapp.com/*",
