@@ -12,7 +12,9 @@
     "build": "react-scripts build",
     "deploy": "yarn build && surge -p build -d https://prtrain.surge.sh",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "e2e": "cypress test",
+    "e2e:open": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^3.4.1"
   }
 }
