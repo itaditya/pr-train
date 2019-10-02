@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="486" height="804.076" viewBox="0 0 486 804.076">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 20px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="190" height="744"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1006 -78.962)">
+    <line id="Line_26" data-name="Line 26" class="cls-2" x1="3" y1="784" transform="translate(1046 89)"/>
+    <line id="Line_27" data-name="Line 27" class="cls-2" x1="3" y1="784" transform="translate(1146 89)"/>
+    <g id="Repeat_Grid_3" data-name="Repeat Grid 3" class="cls-3" transform="translate(1006 124)">
+      <g transform="translate(-20 -70)">
+        <line id="Line_3" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20)">
+        <line id="Line_3-2" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 70)">
+        <line id="Line_3-3" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 140)">
+        <line id="Line_3-4" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 210)">
+        <line id="Line_3-5" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 280)">
+        <line id="Line_3-6" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 350)">
+        <line id="Line_3-7" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 420)">
+        <line id="Line_3-8" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 490)">
+        <line id="Line_3-9" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 560)">
+        <line id="Line_3-10" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+      <g transform="translate(-20 630)">
+        <line id="Line_3-11" data-name="Line 3" class="cls-2" x2="170" transform="translate(30 80)"/>
+      </g>
+    </g>
+    <line id="Line_28" data-name="Line 28" class="cls-2" x2="170" transform="translate(1312 412)"/>
+    <line id="Line_32" data-name="Line 32" class="cls-2" x2="170" transform="translate(1309.388 355.5) rotate(-30)"/>
+    <line id="Line_33" data-name="Line 33" class="cls-2" x2="170" transform="translate(1269.5 326.612) rotate(-60)"/>
+    <line id="Line_34" data-name="Line 34" class="cls-2" x2="170" transform="matrix(0.174, -0.985, 0.985, 0.174, 1214.24, 302.709)"/>
+    <line id="Line_29" data-name="Line 29" class="cls-2" x2="170" transform="matrix(0.985, 0.174, -0.174, 0.985, 1292.291, 481.24)"/>
+    <line id="Line_30" data-name="Line 30" class="cls-2" x2="170" transform="translate(1238.388 524.5) rotate(30)"/>
+    <line id="Line_31" data-name="Line 31" class="cls-2" x2="170" transform="translate(1174.363 531.886) rotate(50)"/>
+    <path id="Path_3" data-name="Path 3" class="cls-2" d="M1191,891.634s-26.018-135.686,138.28-136.583,161.042-162.764,161.042-162.764-3.071-118.517-170-117.039" transform="translate(-142 -201)"/>
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M1291.016,372.295s301.29-43.955,301.277,218.366c1.364,263.554-251.408,266.965-251.408,266.965s-51.635,5.332-49.869,72.957" transform="translate(-142 -201)"/>
+  </g>
+</svg>
